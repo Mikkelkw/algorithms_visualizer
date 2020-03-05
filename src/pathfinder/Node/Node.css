@@ -1,0 +1,107 @@
+.node {
+    width: 1.75%;
+    height: 3vh;
+    outline: .01px solid rgb(6, 71, 121);
+    display: inline-block;
+    margin-bottom: -3px;
+  }
+  
+  .node-finish {
+    background-color: red;
+  }
+  
+  .node-start {
+    background-color: green;
+  }
+  
+  .node-visited {
+    animation-name: visitedAnimation;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+  }
+  .node-not-visited {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  @keyframes visitedAnimation {
+    0% {
+      transform: scale(0.3);
+      background-color: rgba(0, 0, 66, 0.75);
+      border-radius: 100%;
+    }
+  
+    50% {
+      background-color: rgba(224, 155, 221, 0.75);
+    }
+  
+    75% {
+      transform: scale(1.2);
+      background-color: rgba(114, 22, 175, 0.75);
+    }
+  
+    100% {
+      transform: scale(1);
+      background-color: rgba(224, 125, 233, 0.75);
+    }
+  }
+  
+  .node-wall {
+    animation-name: isWall;
+    animation-duration: .5s;
+    animation-delay: 0;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    
+  }
+  
+  .node-shortest-path {
+    animation-name: shortestPath;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+  }
+  
+  @keyframes shortestPath {
+    0% {
+      transform: scale(0.6);
+      background-color: rgb(4, 245, 113);
+    }
+  
+    50% {
+      transform: scale(1.2);
+      background-color: rgb(4, 245, 113);
+    }
+  
+    100% {
+      transform: scale(1);
+      background-color: rgb(4, 245, 113);
+    }
+  }
+  @keyframes notvisited {
+  
+    100% {
+      transform: scale(1);
+      background-color: rgb(255, 255, 255);
+    }
+  }
+  @keyframes isWall {
+ 
+    50% {
+      transform: scale(1.2);
+      background-color: black;
+    }
+  
+    100% {
+      transform: scale(1);
+      background-color: black;
+    }
+  }

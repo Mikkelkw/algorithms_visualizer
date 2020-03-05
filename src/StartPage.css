@@ -1,0 +1,26 @@
+#main{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+#sorting{
+    position: relative;
+    display: inline-block;
+    background: red;
+    height: 100%;
+    width: 50%;
+}
+#pathfinging{
+    position: relative;
+    display: inline-block;
+    background: blue;
+    height: 100%;
+    width: 50%;
+}
+.button1{
+    position: relative;
+    margin-top: 50%;
+    height: 15%;
+    width: 25%;
+    font-size: 2vw;
+}
