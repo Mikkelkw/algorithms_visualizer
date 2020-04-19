@@ -18,9 +18,11 @@
     width: 50%;
 }
 .button1{
-    position: relative;
+    position: absolute;
     margin-top: 50%;
     height: 15%;
     width: 25%;
     font-size: 2vw;
+    left: 50%;
+    margin-left: -12.5%;
 }

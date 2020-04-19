@@ -5,10 +5,10 @@ import {astar} from '../algorithms/astar';
 
 import './Pathfinder.css';
 
-const START_NODE_ROW = 2;
+const START_NODE_ROW = 10;
 const START_NODE_COL = 15;
-const FINISH_NODE_ROW = 2;
-const FINISH_NODE_COL = 25;
+const FINISH_NODE_ROW = 10;
+const FINISH_NODE_COL = 35;
 
 export default class PathfindingVisualizer extends Component {
   constructor() {
