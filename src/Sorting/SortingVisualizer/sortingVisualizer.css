@@ -1,14 +1,63 @@
 .array-container {
-
-    bottom: 100px;
-    top: 20px;
+  
+    bottom: 10%;
+    margin-top: 0%;
+    margin-bottom: 2%;
     height: 100%;
-    width: 100%;
+    width: 75%;
     /* top: 100px; */
+    float: left;
   }
   
   .array-bar {
-    width: .125vw;
+    position: relative;
+    bottom: 10%;
+    margin-bottom: 10%;
+    top: 4%;
     display: inline-block;
-    margin: 0 1px;
+    margin: .1vw;
   }
+  #quickSort{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 75%;
+    width: 24%;
+    height: 70%;
+    border-radius: 20%;
+    
+    background-size: 100% !important; 
+    background-repeat: no-repeat;
+  }
+  #mainView{
+    height: 100%;
+
+  }
+  img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 2%;
+  }
+  button{
+    
+    
+    
+}
+#sortingButtons{
+  width: 25%;
+  margin-left: 75%;
+  margin-bottom: 3%;
+
+}
+.sortingB{
+  color: black;
+    background-image: linear-gradient(rgb(231, 229, 229), rgb(182, 182, 182));
+    border: 1px solid black;
+  position: relative;
+  margin-top: 2%;
+  margin-bottom: 0%;
+  top: 0%;
+  height: 7vh;
+  border-radius: 3%;
+
+}
+  

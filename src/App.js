@@ -1,7 +1,7 @@
 import React from 'react';
-import Pathfinder from './pathfinder/Pathfinder';
 import StartPage from './StartPage';
 
+//main react app rendered as a standard react component. We use the startPage component to avoid changing standard react code
 import './App.css';
 
 function App() {

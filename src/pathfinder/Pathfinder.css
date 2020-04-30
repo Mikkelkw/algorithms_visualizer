@@ -2,5 +2,41 @@
   height: 100%;
 }
 .grid {
-    margin: 100px 0 0;
+  width: 90%;
+  margin: 2% 5% 5% 5%;
+  overflow: no-content;
+  border-collapse:collapse;
+  outline: 1px solid rgb(12, 53, 71);
+}
+  #TextContainter{
+    max-width: 100%;
+    height: 10%;
+    font-size: .75vw;
+    padding-right: 3%;
+    padding-left: 3%;
+  
+    
+  }
+  #buttonContainter{
+    position: relative;
+    padding-top: 0;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+
+  }
+  button{
+    
+    
+    height: 100%;
+
+  }
+  #pathfindButton{
+    color: black;
+    background-image: linear-gradient(rgb(231, 229, 229), rgb(182, 182, 182));
+    border: 1px solid black;
+    width: 12.5%;
+
   }

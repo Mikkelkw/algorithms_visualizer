@@ -1,6 +1,12 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Algorithms visualizer
+
+This project is a visualizer for both sorting and pathfinding algorithms. To deploy it you will need to implement a personal local database with a "users" table in SQL and connect to it in the server.js (which acts as the back end). In addition you will need to launch both the nodeJS app which acts as a proxy for our main React app and the React app. The node server is launched by cd'ing into our "src" folder and running the "node server.js" command. The React app is launched by locating the project folder and typing "npm start". Please follow Reacts guide down below.
 
 ## Available Scripts
+
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 In the project directory, you can run:
 
